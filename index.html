@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Website</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f4ff;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #4f46e5;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    header h1 { font-size: 3em; margin: 0; }
+    header p  { font-size: 1.2em; }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      background: #3730a3;
+      padding: 12px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover { text-decoration: underline; }
+
+    section {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    section h2 { color: #4f46e5; }
+
+    .card {
+      background: white;
+      border-radius: 12px;
+      padding: 20px;
+      margin: 20px 0;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #4f46e5;
+      color: white;
+      margin-top: 60px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER: Change the name and tagline -->
+  <header>
+    <h1>Hi, I'm [Mahadev] 👋</h1>
+    <p>Welcome to my website. I like [random facts].</p>
+  </header>
+
+  <!-- NAV BAR -->
+  <nav>
+    <a href="#about">About</a>
+    <a href="#hobbies">Hobbies</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- ABOUT SECTION -->
+  <section id="about">
+    <h2>About Me</h2>
+    <div class="card">
+      <p>Hey! I'm [Mahadev], a [26]-year-old from [Bengaluru].
+      I love [random facts]. This is my little corner of the internet!</p>
+    </div>
+  </section>
+
+  <!-- HOBBIES SECTION -->
+  <section id="hobbies">
+    <h2>My Hobbies</h2>
+    <div class="card">🎮 Gaming — I love playing [football]</div>
+    <div class="card">🎵 Music — I'm into [all kinds of music]</div>
+    <div class="card">💻 Tech — Building this website is proof!</div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <div class="card">
+      <p>Want to reach me? Email me at: <strong>[mahadev.m009@gmail.com]</strong></p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>Made with ❤️ by [Mahadev] · [2026]</p>
+  </footer>
+
+</body>
+</html>
